@@ -17,7 +17,7 @@ function draw() {
   let secondAngle = map(sc, 0, 60, 0, 360);
   arc(0, 0, 300, 300, 0, secondAngle);
 
-  stroke("Brown");
+  stroke("Red");
   let minuteAngle = map(mn, 0, 60, 0, 360);
   arc(0, 0, 280, 280, 0, minuteAngle);
 
@@ -33,7 +33,7 @@ function draw() {
 
   push();
   rotate(minuteAngle);
-  stroke("Brown");
+  stroke("Red");
   line(0, 0, 75, 0);
   pop();
 
@@ -43,11 +43,11 @@ function draw() {
   line(0, 0, 50, 0);
   pop();
 
-  stroke("Red");
+  stroke("Yellow");
   point(0, 0);
 
   push();
-  fill("Red");
+  fill("Yellow");
   noStroke();
   rotate(90);
   textSize(30);
